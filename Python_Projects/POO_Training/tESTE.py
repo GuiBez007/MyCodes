@@ -1,3 +1,20 @@
-import time
+import random
 
-time.
+
+def exibirLinha():
+    return '====================='
+
+
+def main():
+    print(exibirLinha())
+    print('      Hello       ')
+    print(exibirLinha())
+
+
+
+
+
+
+
+
+main()

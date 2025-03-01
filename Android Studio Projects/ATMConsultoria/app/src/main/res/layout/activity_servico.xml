@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServicoActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/detalhe_servico" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin augue id lorem imperdiet, quis scelerisque lacus vulputate. Cras luctus diam a pulvinar accumsan. Aliquam euismod lacinia magna et blandit. Aliquam egestas ipsum eget velit feugiat semper. Mauris eget urna posuere, pellentesque orci a, lacinia massa. Nulla in vestibulum urna, in facilisis nulla. Etiam velit orci, lobortis ac lacinia quis, laoreet id leo. Donec faucibus ultrices convallis. Nunc interdum mi a tristique mattis.  Proin lacus sem, efficitur vel laoreet sit amet, convallis eu metus. Suspendisse rutrum ultrices maximus. Cras eleifend vel dui sit amet molestie. Vestibulum facilisis sem in quam fermentum, non hendrerit diam ullamcorper. Proin feugiat mauris tortor, eu molestie felis egestas sed. Vestibulum fringilla ultrices felis quis pellentesque. In nunc diam, ullamcorper quis nisl sed, scelerisque tincidunt dolor. Donec rutrum neque vitae molestie egestas. Fusce sed cursus massa, eu iaculis velit. Duis vel leo mauris. Suspendisse diam orci, mollis sit amet tellus quis, malesuada tempus arcu. Quisque quis imperdiet erat. Suspendisse scelerisque ligula ut erat rhoncus interdum. Donec blandit lectus id turpis tincidunt feugiat.  Suspendisse tincidunt sed enim vel mollis. Cras volutpat vehicula blandit. Pellentesque lacinia lectus vitae arcu sodales fringilla. Nullam efficitur nec libero a dapibus. Proin aliquam purus nec nisl egestas rhoncus euismod et leo. Suspendisse iaculis rutrum eros, ut finibus turpis pulvinar eu. Mauris facilisis semper lectus id malesuada. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse metus odio, dapibus ac libero non, tempor auctor neque. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam facilisis arcu nec ligula imperdiet vestibulum. Nam a mauris sit amet libero posuere pretium. Suspendisse luctus ipsum felis, sed feugiat purus hendrerit eu. Etiam egestas egestas arcu at volutpat. Maecenas interdum pulvinar magna vitae laoreet. Proin elementum pulvinar lorem non iaculis. Mauris mollis, magna eget convallis rutrum, ex elit pellentesque orci, non pellentesque arcu urna facilisis justo. Quisque in vehicula elit, a finibus metus.  Maecenas sodales dolor sit amet ante cursus pellentesque. Etiam ut libero et dui vehicula convallis. Morbi dignissim nisi interdum risus mollis ultricies. Vestibulum mollis suscipit pulvinar. Nullam vitae finibus tortor. Sed mauris lectus, luctus at aliquet vel, mollis quis tellus. Phasellus lacus lorem, elementum et enim a, interdum aliquam nibh. Sed turpis nisl, tempor nec elit eu, dignissim consectetur libero." />
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="108dp"
+        android:text="Serviços"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.302"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
